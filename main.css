@@ -208,10 +208,10 @@ main {
  */
 
 .top-news {
-  height: 300px;
+  /*height: 300px;*/
   /*border-bottom: 1px solid #E0E0E0;*/
   padding: 1em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .news__title {
@@ -322,13 +322,13 @@ main {
 }
 
 .weather__today {
-  width: 60%;
+  width: 100%;
   vertical-align: middle;
+  margin-left:15%;
 }
 
 .weather__today__image {
   vertical-align: middle;
-  width: 70%;
 }
 
 .weather__today__temp {
@@ -417,6 +417,7 @@ footer {
   border-top: 1px solid #E0E0E0;
   padding: 1em;
   width: 100%;
+  text-align: center;
 }
 
 footer li {
@@ -431,4 +432,47 @@ footer a {
   padding: 1.5em;
 }
 
-@media screen and (min-width:)
+@media screen and (min-width:460px) {
+  .weather__today {
+    margin-left: 0;
+  }
+
+  .weather__next__item {
+    display: inline-block;
+}
+
+  .weather__next__item span {
+    padding-left: 1em;
+    display: block;
+  }
+  .weather__next__image {
+    width: 40%;
+    padding: 0.8em;
+  }
+
+}
+
+@media screen and (min-width: 550px) {
+  a#menu {
+    display: none;
+  }
+  .nav {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .nav__item {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 600px) {
+  /*ul.weather__next {
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+  }*/
+}
