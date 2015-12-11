@@ -469,10 +469,23 @@ footer a {
     text-transform: uppercase;
   }
 }
-@media screen and (min-width: 600px) {
-  /*ul.weather__next {
+
+@media screen and (min-width: 750px) {
+  .top-news {
+    width: 58%;
+    display: inline-block;
+  }
+
+  .scores {
+    width: 40%;
+    display: inline-block;
+    margin-top: 2em;
+    vertical-align: top;
+  }
+
+  ul.weather__next {
     margin-left: 30px;
     display: inline-block;
     vertical-align: middle;
-  }*/
+  }
 }
