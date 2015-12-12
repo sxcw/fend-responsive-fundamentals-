@@ -166,6 +166,10 @@ main {
   flex-wrap:wrap;
 }
 
+.content {
+  display: flex;
+  flex-wrap:wrap;
+}
 /*
  *
  * Content
@@ -511,8 +515,6 @@ footer a {
 
     .content {
       max-width: 950px;
-      display: flex;
-      flex-wrap:wrap;
       width:98%;
       margin: 0 auto;
     }
